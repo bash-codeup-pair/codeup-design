@@ -1,7 +1,11 @@
 body{
-    background: #E6E6E6;
+    background: #F0F0F0;
     padding: 0;
     margin: 0;
+}
+
+html {
+    padding: 0;
 }
 header{
     margin-top: 64px;
@@ -71,4 +75,26 @@ li {
 
 #navbar {
     padding: 0 1em;
+}
+
+
+
+#selected-work {
+    /*padding: 0;*/
+}
+
+.card {
+    border: none;
+}
+
+.card img {
+    border: .5em solid #E6E6E6;
+}
+
+.icons {
+    height: 18px;
+    width: 18px;
+    margin: 0 .3em;
+    font-weight: bold;
+    font-family: Anton;
 }
