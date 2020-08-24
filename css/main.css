@@ -1,0 +1,42 @@
+body{
+    background: #E6E6E6;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Anton', sans-serif;
+}
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 32px;
+}
+h5{
+    font-size: 28px;
+}
+p{
+    font-family: 'Abel', sans-serif;
+}
+.circles{
+    width: 105px;
+    height: 105px;
+    border: 5px solid white!important;
+    color: white;
+}
+.design{
+    background-color:#E65638;
+}
+.develop{
+    background-color:#EB9D3A;
+}
+.support{
+    background-color:#7CB06C;
+}
+.host{
+    background-color:#00ABA9;
+}
