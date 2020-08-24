@@ -1,6 +1,9 @@
 body{
     background: #E6E6E6;
 }
+header{
+    margin-top: 64px;
+}
 h1, h2, h3, h4, h5{
     font-family: 'Anton', sans-serif;
 }
@@ -39,4 +42,17 @@ p{
 }
 .host{
     background-color:#00ABA9;
+}
+#logo{
+    position:relative;
+    width: 105px;
+    height: 105px;
+    margin-top:-25px;
+}
+#logoBg{
+    height: 57px;
+}
+ul{
+    list-style: none;
+    padding: 0;
 }
