@@ -32,8 +32,8 @@ p{
     font-family: 'Abel', sans-serif;
 }
 .circles{
-    width: 105px;
-    height: 105px;
+    width: 135px;
+    height: 135px;
     border: 5px solid white!important;
     color: white;
 }
@@ -76,9 +76,6 @@ li {
 #navbar {
     padding: 0 1em;
 }
-
-
-
 #selected-work {
     /*padding: 0;*/
 }
@@ -96,5 +93,16 @@ li {
     width: 18px;
     margin: 0 .3em;
     font-weight: bold;
-    font-family: Anton;
+    font-family: 'Anton', sans-serif;
+}
+.the-last-img {
+    width: 50px;
+    height: 60px;
+}
+#tweetTitle>p{
+    font-size: 1.5em;
+}
+#tweetTitle>img{
+    width: 40px;
+    height: 40px;
 }
