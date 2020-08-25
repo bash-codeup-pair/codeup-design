@@ -96,8 +96,10 @@ li {
     font-family: 'Anton', sans-serif;
 }
 .the-last-img {
-    width: 50px;
-    height: 60px;
+    /*width: 25px;*/
+    /*height: 40px;*/
+    height: auto;
+    max-width: 100%;
 }
 #tweetTitle>p{
     font-size: 1.5em;
