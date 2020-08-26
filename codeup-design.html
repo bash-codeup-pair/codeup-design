@@ -8,21 +8,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <div class="container-fluid mb-5">
-        <header class="mt-5">
-            <div class="row">
-                <div class="col-12 bg-white mt-4" id="logoBg"></div>
-            </div>
+<body class="p-0 m-0">
+    <header>
+        <div class="w-100 bg-white mt-4 position-absolute" id="logoBg"></div>
+        <nav class="container my-5">
             <div class="row align-items-center justify-content-center">
                 <div class="col-12 col-md-2 d-flex justify-content-center justify-content-md-end">
                     <img alt="" id="logo" src="assets/logo.png">
                 </div>
                 <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center">
-                    <p id="codeuptitle">codeup design</p>
+                    <p id="codeuptitle" class="m-0">codeup design</p>
                 </div>
                 <div class="col-12 col-md-4 text-center d-flex justify-content-center" id="navbar">
-                    <ul class="d-flex align-items-center m-0 p-0 justify-content-center">
+                    <ul class="list-unstyled d-inline-block d-flex align-items-center m-0 p-0 justify-content-center">
                         <li>SERVICES</li>
                         <li>WORK</li>
                         <li>BLOG</li>
@@ -30,183 +28,182 @@
                     </ul>
                 </div>
             </div>
-        </header>
-    </div>
-    <div class="container mb-5">
+        </nav>
+    </header>
+    <div class="container my-4">
         <div class="row text-center">
             <div class="col-12">
                 <h3>VISUAL DESIGN & WEB DEVELOPMENT</h3>
             </div>
-            <div class="col-12">
-                <h5 class="mt-5 mb-5">FROM PARK CITY, UTAH</h5>
+            <div class="col-12 my-4">
+                <h4>FROM PARK CITY, UTAH</h4>
             </div>
         </div>
+        <div class="row px-3 my-3">
+            <div class="col-6 col-md-3 mb-2 d-flex justify-content-center">
+                <div class="rounded-circle circles design d-flex justify-content-center align-items-center">
+                    <h5>DESIGN</h5>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-2 d-flex justify-content-center">
+                <div class="rounded-circle circles develop d-flex justify-content-center align-items-center">
+                    <h5>DEVELOP</h5>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-2 d-flex justify-content-center">
+                <div class="rounded-circle circles support d-flex justify-content-center align-items-center">
+                    <h5>SUPPORT</h5>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-2 d-flex justify-content-center">
+                <div class="rounded-circle circles host d-flex justify-content-center align-items-center">
+                    <h5>HOST</h5>
+                </div>
+            </div>
+        </div>
+        <hr class="mb-5 d-none d-md-block">
         <div class="row">
-            <div class="col-6 col-md-3 mb-2 d-flex justify-content-center">
-                <div class="rounded-circle circles design d-flex justify-content-center align-items-center">DESIGN</div>
+            <div class="container d-flex justify-content-center col-md-7" id="selected-work">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-center justify-content-md-start">
+                        <p>SELECTED WORK</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="card bg-transparent border-0">
+                                <img src="assets/images/apple-ipad.jpg" class="card-img-top" alt="...">
+                                <div class="card-body row">
+                                    <p class="card-text">Featured Project</p>
+                                    <ul class="ml-auto d-flex flex-direction-row">
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center design">
+                                            D
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center develop">
+                                            D
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center support">
+                                            S
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center host">
+                                            H
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card bg-transparent border-0">
+                                <img src="assets/images/macbook.jpg" class="card-img-top" alt="...">
+                                <div class="card-body row">
+                                    <p class="card-text">Featured Project</p>
+                                    <ul class="ml-auto d-flex flex-direction-row">
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center design">
+                                            D
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center develop">
+                                            D
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center support">
+                                            S
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center host">
+                                            H
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card bg-transparent border-0">
+                                <img src="assets/images/man.jpg" class="card-img-top" alt="...">
+                                <div class="card-body row">
+                                    <p class="card-text">Featured Project</p>
+                                    <ul class="ml-auto d-flex flex-direction-row">
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center design">
+                                            D
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center develop">
+                                            D
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center support">
+                                            S
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center host">
+                                            H
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card bg-transparent border-0">
+                                <img src="assets/images/security.jpg" class="card-img-top" id="security-image" alt="...">
+                                <div class="card-body row">
+                                    <p class="card-text">Featured Project</p>
+                                    <ul class="ml-auto d-flex flex-direction-row">
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center design">
+                                            D
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center develop">
+                                            D
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center support">
+                                            S
+                                        </li>
+                                        <li class="rounded-circle icons design d-flex justify-content-center align-items-center host">
+                                            H
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="container col-md-5">
+                <section id="theLast">
+                    <div class="d-flex justify-content-center justify-content-md-start">
+                        <p>THE LAST</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="mw-100" src="assets/images/mobile-phone.jpg" alt="">
+                        </div>
+                        <div class="col-9">
+                            <h5>THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="mw-100" src="assets/images/head.jpg" alt="">
+                        </div>
+                        <div class="col-9">
+                            <h5>NIBBLER AWESOME WEBSITE TESTING</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="mw-100" src="assets/images/ipad.jpg" alt="">
+                        </div>
+                        <div class="col-9">
+                            <h5>HOW TO GET GOOGLE TO LIKE YOU</h5>
+                        </div>
+                    </div>
+                </section>
 
-            <div class="col-6 col-md-3 mb-2 d-flex justify-content-center">
-                <div class="rounded-circle circles develop d-flex justify-content-center align-items-center">DEVELOP</div>
+                <section id="twitter">
+                    <div class="row mb-2 mt-5">
+                        <div id="tweetTitle" class="col-12">
+                            <img class="float-left pr-2" alt="" src="assets/images/004-twitter.png">
+                            <p class="float-left">LAST TWEET</p>
+                        </div>
+                        <div class="col-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="col-6 col-md-3 mb-2 d-flex justify-content-center">
-                <div class="rounded-circle circles support d-flex justify-content-center align-items-center">SUPPORT</div>
-            </div>
-            <div class="col-6 col-md-3 mb-2 d-flex justify-content-center">
-                <div class="rounded-circle circles host d-flex justify-content-center align-items-center">HOST</div>
-            </div>
-
         </div>
-            <div class="d-none d-md-block">
-                <hr>
-            </div>
-
-        <div class="row">
-
-        <div class="container d-flex justify-content-center col-md-8" id="selected-work">
-
-            <div class="container-fluid">
-                <div class="col-12 d-flex justify-content-center justify-content-md-start">
-                    <p>SELECTED WORK</p>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="card bg-transparent">
-                            <img src="assets/images/apple-ipad.jpg" class="card-img-top" alt="...">
-                            <div class="card-body row">
-                                <p class="card-text">Featured Project</p>
-                                <ul class="ml-auto d-flex flex-direction-row">
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center design">
-                                        D
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center develop">
-                                        D
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center support">
-                                        S
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center host">
-                                        H
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="card bg-transparent">
-                            <img src="assets/images/macbook.jpg" class="card-img-top" alt="...">
-                            <div class="card-body row">
-                                <p class="card-text">Featured Project</p>
-                                <ul class="ml-auto d-flex flex-direction-row">
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center design">
-                                        D
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center develop">
-                                        D
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center support">
-                                        S
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center host">
-                                        H
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="card bg-transparent">
-                            <img src="assets/images/man.jpg" class="card-img-top" alt="...">
-                            <div class="card-body row">
-                                <p class="card-text">Featured Project</p>
-                                <ul class="ml-auto d-flex flex-direction-row">
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center design">
-                                        D
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center develop">
-                                        D
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center support">
-                                        S
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center host">
-                                        H
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="card bg-transparent">
-                            <img src="assets/images/security.jpg" class="card-img-top" id="security-image" alt="...">
-                            <div class="card-body row">
-                                <p class="card-text">Featured Project</p>
-                                <ul class="ml-auto d-flex flex-direction-row">
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center design">
-                                        D
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center develop">
-                                        D
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center support">
-                                        S
-                                    </li>
-                                    <li class="rounded-circle icons design d-flex justify-content-center align-items-center host">
-                                        H
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container col-md-4">
-            <section id="theLast">
-                <div class="col-12 d-flex justify-content-center justify-content-md-start">
-                    <p>THE LAST</p>
-                </div>
-                <div class="row mb-5">
-                    <div class="col-3">
-                        <img class="the-last-img" src="assets/images/mobile-phone.jpg" alt="">
-                    </div>
-                    <div class="col-9">
-                        <h5>THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
-                    </div>
-                </div>
-                <div class="row mb-5">
-                    <div class="col-3">
-                        <img class="the-last-img" src="assets/images/head.jpg" alt="">
-                    </div>
-                    <div class="col-9">
-                        <h5>NIBBLER AWESOME WEBSITE TESTING</h5>
-                    </div>
-                </div>
-                <div class="row mb-2">
-                    <div class="col-3">
-                        <img class="the-last-img" src="assets/images/ipad.jpg" alt="">
-                    </div>
-                    <div class="col-9">
-                        <h5>HOW TO GET GOOGLE TO LIKE YOU</h5>
-                    </div>
-                </div>
-            </section>
-
-            <section id="twitter">
-                <div class="row mb-2 mt-5">
-                    <div id="tweetTitle" class="col-12">
-                        <img class="float-left pr-2" alt="" src="assets/images/004-twitter.png">
-                        <p class="float-left">LAST TWEET</p>
-                    </div>
-                    <div class="col-12">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
     </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

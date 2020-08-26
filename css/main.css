@@ -1,13 +1,6 @@
 body{
     background: #F0F0F0;
-    padding: 0;
-    margin: 0;
 }
-
-html {
-    padding: 0;
-}
-
 h1, h2, h3, h4, h5{
     font-family: 'Anton', sans-serif;
 }
@@ -47,52 +40,19 @@ p{
 .host{
     background-color:#00ABA9;
 }
-#logo{
-    width: 105px;
-    height: 105px;
-}
-#logoBg{
-    position:absolute;
-    height: 57px;
-}
-ul{
-    display: inline-block;
-    list-style: none;
-}
-
 li {
     font-size: .7em;
     padding: .5em!important;
 }
-
-#codeuptitle {
-    font-size: 2.3em;
-    margin: 0;
-}
-
-#navbar {
-    padding: 0 1em;
-}
-.card {
-    border: none;
-}
-
 .card img {
     border: .5em solid #E6E6E6;
 }
-
 .icons {
     height: 18px;
     width: 18px;
     margin: 0 .3em;
     font-weight: bold;
     font-family: 'Anton', sans-serif;
-}
-.the-last-img {
-    /*width: 25px;*/
-    /*height: 40px;*/
-    height: auto;
-    max-width: 100%;
 }
 #tweetTitle>p{
     font-size: 1.5em;
@@ -101,8 +61,13 @@ li {
     width: 40px;
     height: 40px;
 }
-
-/*#security-image {*/
-/*    height: 400px;*/
-/*    width: 540px;*/
-/*}*/
+#logo{
+    width: 105px;
+    height: 105px;
+}
+#logoBg{
+    height: 57px;
+}
+#codeuptitle {
+    font-size: 2.3em;
+}
